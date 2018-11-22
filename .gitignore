@@ -1,36 +1,15 @@
-# maven ignore
-target/
-*.jar
-!.mvn/wrapper/*
-*.war
-*.zip
-*.tar
-*.tar.gz
-
-# eclipse ignore
-.settings/
-.project
-.classpath
-
-# idea ignore
-.idea/
-*.ipr
-*.iml
-*.iws
-
-# temp ignore
-*.log*
-*.cache
-*.diff
-*.patch
-*.tmp
-
-# system ignore
 .DS_Store
-Thumbs.db
+node_modules/
+/dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
 
-dubbo-admin-backend/src/main/resources/public
-dubbo-admin-backend/target
-dubbo-admin-frontend/dist
-dubbo-admin-frontend/node
-dubbo-admin-frontend/node-modules
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
